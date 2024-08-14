@@ -129,11 +129,28 @@ elif kpi == 'KPI 3: Velocidad Media de Descarga':
         """)
 
 # Conclusión final del dashboard
-st.header('📝 Conclusión')
+st.header('📝 Conclusión General sobre los Resultados y la Interpretación de los Datos')
 st.markdown("""
-Este dashboard ofrece una visión integral y clara de la evolución del internet en Argentina, incluyendo la penetración en hogares, 
-la velocidad media de descarga, y los accesos por velocidad. Las gráficas interactivas permiten explorar diferentes aspectos de cada KPI y 
-realizar comparaciones entre provincias y tecnologías. Esta información es esencial para el desarrollo de políticas públicas y estrategias 
-empresariales que busquen mejorar el acceso y la calidad del internet en todo el país.
+El análisis global de los datos sobre acceso a internet y velocidad en Argentina revela una serie de tendencias significativas y disparidades regionales que son clave para entender el estado actual de la infraestructura de telecomunicaciones en el país.
+
+**Incremento General en el Acceso a Internet:**
+
+Existe un incremento uniforme del 2% en el acceso a internet en todas las provincias, lo que indica un progreso positivo en la expansión de la conectividad. Sin embargo, el impacto absoluto de este incremento varía considerablemente según la base de accesos actuales de cada provincia. Provincias con una base de accesos más grande, como Buenos Aires y Capital Federal, experimentan un mayor aumento absoluto, mientras que regiones como Catamarca y Santiago Del Estero muestran incrementos menores en términos absolutos.
+
+**Desigualdades en la Velocidad y Calidad del Acceso:**
+
+Se observa una marcada diferencia en la velocidad media de descarga entre provincias. Capital Federal y Buenos Aires lideran con velocidades significativamente altas, reflejando un acceso a internet de alta calidad. En contraste, provincias como Tucumán, Santa Fe y Santiago Del Estero tienen velocidades muy bajas, lo que sugiere una necesidad urgente de mejoras en la infraestructura.
+
+**Penetración de Velocidades Superiores:**
+
+El porcentaje de accesos con velocidades superiores a 20 Mbps ha aumentado considerablemente en los últimos años, pasando de ser casi insignificante a representar una proporción significativa en algunas provincias. Sin embargo, este avance no ha sido uniforme, con grandes diferencias entre regiones. Capital Federal presenta una alta penetración de estas velocidades, mientras que otras provincias aún están rezagadas.
+
+**Índice de Calidad del Acceso a Internet:**
+
+El índice de calidad, que combina la velocidad media de descarga y el porcentaje de accesos por encima de 20 Mbps, destaca aún más las disparidades regionales. Capital Federal y Buenos Aires tienen los índices de calidad más altos, indicando un acceso a internet robusto y eficiente. En cambio, provincias como Tucumán y Santiago Del Estero muestran índices muy bajos, subrayando la necesidad de intervenciones específicas para mejorar la calidad del acceso en estas áreas.
+
+**Desafíos y Oportunidades:**
+
+Aunque el incremento general en el acceso a internet es alentador, las disparidades en la velocidad y la calidad del acceso evidencian desafíos significativos. Para cerrar estas brechas, será crucial seguir invirtiendo en infraestructura, especialmente en las provincias más rezagadas. Además, un análisis más profundo de las razones detrás de las grandes diferencias en penetración y velocidad permitirá desarrollar estrategias más efectivas para mejorar el acceso a internet en todo el país.
 """)
 
